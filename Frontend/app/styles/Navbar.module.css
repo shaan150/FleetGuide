@@ -1,0 +1,86 @@
+.navbar {
+    background-color: #37718E;
+    color: white;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Space between rows */
+    align-items: center; /* Center content horizontally */
+  }
+  
+  .centeredRow {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    width: 100%; /* Full width of the navbar */
+  }
+  
+  .locationInputs {
+    display: flex;
+    gap: 20px; /* Space between input columns */
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 10px; /* Padding on left and right of each column */
+    width: 100%; /* Ensure columns take full width available */
+  }
+  
+  .label {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 5px; /* Space between label and input */
+    text-align: center;
+  }
+  
+  .locationInput {
+    width: 100%; /* Full width of the column */
+    max-width: 300px; /* Maximum width for larger screens */
+    padding: 12px 16px; /* Padding inside the input field */
+    border-radius: 8px; /* Rounded corners */
+    border: 1px solid #ccc; /* Light border for the input field */
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.12); /* Subtle inner shadow for a flat design */
+    background-color: #fff; /* White background for the input field */
+    font-size: 14px; /* Font size inside the input field */
+    color: #333; /* Text color inside the input field */
+  }
+  
+  .locationInput:focus {
+    border-color: #37718E; /* Change border color on focus */
+    outline: none; /* Remove default outline */
+    box-shadow: 0 0 0 2px rgba(55, 113, 142, 0.2); /* Add a focus shadow */
+  }
+  
+  .link {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 5px; /* Space between input and link */
+    font-size: 14px;
+  }
+  
+  .link:hover {
+    text-decoration: underline;
+  }
+  
+  .calculateButton {
+    background-color: #FFFFFF;
+    color: #37718E;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 8px; /* Rounded corners for the button */
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  .calculateButton:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .noPadding {
+    padding: 0;
+    margin: 0;
+  }
+  

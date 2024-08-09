@@ -1,0 +1,19 @@
+.locationInput {
+    width: 100%; /* Ensure the input takes up full width of its container */
+    max-width: 400px; /* Limit maximum width for better control on large screens */
+    padding: 12px 16px; /* Add padding inside the input field */
+    border-radius: 8px; /* Rounded corners for a modern look */
+    border: 1px solid #ccc; /* Light border for a flat design */
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.12); /* Subtle inner shadow */
+    background-color: #fff; /* White background */
+    font-size: 14px; /* Font size inside the input field */
+    color: #333; /* Text color */
+    outline: none; /* Remove default outline */
+    transition: border-color 0.3s, box-shadow 0.3s; /* Smooth transition for focus state */
+  }
+  
+  .locationInput:focus {
+    border-color: #37718E; /* Change border color on focus */
+    box-shadow: 0 0 0 2px rgba(55, 113, 142, 0.2); /* Add focus shadow */
+  }
+  

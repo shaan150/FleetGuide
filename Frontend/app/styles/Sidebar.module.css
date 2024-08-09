@@ -1,0 +1,12 @@
+.sidebar {
+    width: 250px; /* Fixed width for the sidebar */
+    height: 100%; /* Full height of the parent (100vh) */
+    overflow-y: auto; /* Scroll if content overflows */
+    border-right: 1px solid #ddd; /* Optional: Border for visual separation */
+    padding: 16px; /* Optional: Padding for content spacing */
+    background-color: #f9f9f9; /* Optional: Background color */
+  }
+  .vehicle-card {
+    margin-bottom: 16px; /* Space between vehicle cards */
+  }
+  
